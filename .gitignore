@@ -4,7 +4,8 @@
 /wp-content/plugins/index.php
 /wp-content/themes/index.php
 /wp-includes/
-/index.php/licence.txt
+/index.php
+/license.txt
 /readme.html
 /wp-*.php
 /xmlrpc.php
@@ -14,6 +15,8 @@ wp-config.php
 
 /wp-content/themes/twenty*/
 /wp-content/plugins/hello.php
+
+
 /wp-content/uploads/
 
 *.log
