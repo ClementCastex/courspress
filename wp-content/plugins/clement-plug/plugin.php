@@ -23,22 +23,18 @@ function filtrerInsultes($texte) {
     }
     return $texte;
 }
+// add_filter('the_content', 'filtrerInsultes');
+
 
 function activer_plugin_filtrage_insultes() {
-    add_filter('the_content', 'filtrerInsultes');
-}
+
+};
 register_activation_hook(__FILE__, 'activer_plugin_filtrage_insultes');
-
-
 function desactiver_plugin_filtrage_insultes() {
-    remove_filter('the_content', 'filtrerInsultes');
-}
+
+};
 register_deactivation_hook(__FILE__, 'desactiver_plugin_filtrage_insultes');
 
 
-add_action('init', function() {
-    if (is_plugin_active(plugin_basename(__FILE__))) {
-        add_filter('the_content', 'filtrerInsultes');
-    }
-});
+//  var_dump ($phraseFiltrée); 
 ?>
