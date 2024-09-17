@@ -16,7 +16,7 @@ function customThemeSupport()
 function addStyles()
 {
     wp_register_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css', [], 0.1);
-    wp_register_style('clement', '/wp-content/themes/clement/styles/clement.css', ["bootstrap"], 0.6);
+    wp_register_style('clement', '/wp-content/themes/clement/styles/clement.css', ["bootstrap"], 0.8);
     wp_register_script('bootstrap_script', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js');
     wp_enqueue_style('clement');
     wp_enqueue_style('bootstrap');
