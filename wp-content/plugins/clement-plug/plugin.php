@@ -14,7 +14,9 @@ Author URI: https://automattic.com/wordpress-plugins/
 License: GPLv2 or later
 Text Domain: akismet
 */
-// include_once plugin_dir_path(__FILE__) . './themes/clement/index.php';
+require_once plugin_dir_path(__FILE__) . 'settings.php';
+
+/* Fonctionnalité de Filtrage et de changement de mot insultant par un mot gentil*/
 function insererInsultesAvecMotsGentils() {
     global $wpdb;
     $table_name = $wpdb->prefix . 'filter'; 
@@ -40,7 +42,8 @@ function insererInsultesAvecMotsGentils() {
         'Bienfaisant', 'Bienheureux', 'Ensoleillé', 'Éblouissant', 'Inoubliable', 'Passion', 'Émerveillé',
         'Génie', 'Courage', 'Chaleureux', 'Attentionné', 'Loyal', 'Charmant', 'Adorable', 'Sérénité',
         'Confiant', 'Motivé', 'Inspiré', 'Valeureux', 'Aimant', 'Passionné', 'Enthousiaste', 'Digne', 
-        'Loyal', 'Gentil', 'Doux', 'Souriant', 'Rayonnant'
+        'Loyal', 'Gentil', 'Doux', 'Souriant', 'Rayonnant', 'Brillant', 'Solidaire', 'Altruiste', 
+        'Respectueux', 'Optimiste'
     );
 
     $wpdb->query("TRUNCATE TABLE $table_name");
