@@ -1,4 +1,4 @@
-# Frendly Censure
+![image](https://github.com/user-attachments/assets/fc05a640-bedb-4938-bae7-1ffe9be0413f)# Frendly Censure
 
 ![Version du plugin](https://img.shields.io/badge/version-1.0.0-blue)
 ![Compatibilité WordPress](https://img.shields.io/badge/WordPress-5.8%2B-blue)
@@ -14,22 +14,24 @@
 - **Personnalisation** des listes de mots à censurer et de leurs remplacements via l'interface d'administration.
 - **Activation/Désactivation** du filtrage grâce à une option dans les paramètres du plugin.
 
-## Installation 
-
-![Capture d'écran 2024-09-20 122146](https://github.com/user-attachments/assets/b19e46ea-ace3-46cb-8844-c2a3f164273a)
-
-
-
-1. **Interface de configuration du plugin :**
-
-   ![Paramètres du plugin](images/settings.png)
-
-2. ![image](https://github.com/user-attachments/assets/f88ecbef-9fcf-40ba-aba5-1b2d409c35d5)
-3. ![image](https://github.com/user-attachments/assets/ac8aa43e-4370-4452-8c93-54423172d65b)
-
 ## Cadre du Projet
 
-Ce projet a été réalisé en une semaine dans le cadre de notre apprentissage à la Normandie Web School afin de découvrir et maîtriser les extensions et plugins WordPress, pour ensuite les développer nous-mêmes. C'est donc ce que j'ai fait en créant ce plugin qui, en principe, est assez simple, simplement censurer certains mots. Je me suis même dit : pourquoi ne pas faire en sorte que les utilisateurs puissent ajouter des mots ou des phrases qu'ils trouvent offensants ? C'est pourquoi je laisse la possibilité à l'utilisateur de personnaliser.
+Ce projet a été réalisé en une semaine dans le cadre de notre apprentissage à la Normandie Web School afin de découvrir et maîtriser les extensions et plugins WordPress, pour ensuite les développer nous-mêmes. C'est donc ce que j'ai fait en créant ce plugin qui, en principe, est assez simple, simplement censurer certains mots. Je me suis même dit : pourquoi ne pas faire en sorte que les utilisateurs 
+puissent ajouter des mots ou des phrases qu'ils trouvent offensants ? C'est pourquoi je laisse la possibilité à l'utilisateur de personnaliser.
+
+
+ ## Exemples :
+
+ ** Avec Censure **
+ ![image](https://github.com/user-attachments/assets/f88ecbef-9fcf-40ba-aba5-1b2d409c35d5)
+ ** Sans Censure **
+ ![image](https://github.com/user-attachments/assets/ac8aa43e-4370-4452-8c93-54423172d65b)
+
+
+## Parametrage
+
+![Capture d'écran 2024-09-20 122146](https://github.com/user-attachments/assets/b19e46ea-ace3-46cb-8844-c2a3f164273a)
+![image](https://github.com/user-attachments/assets/8b9ec834-5d90-44af-88ea-dae5fe1449b1)
 
 
 
