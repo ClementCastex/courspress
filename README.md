@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fc05a640-bedb-4938-bae7-1ffe9be0413f)# Frendly Censure
+# Frendly Censure
 
 ![Version du plugin](https://img.shields.io/badge/version-1.0.0-blue)
 ![Compatibilité WordPress](https://img.shields.io/badge/WordPress-5.8%2B-blue)
@@ -22,9 +22,9 @@ puissent ajouter des mots ou des phrases qu'ils trouvent offensants ? C'est pour
 
  ## Exemples :
 
- ** Avec Censure **
+**Avec Censure**
  ![image](https://github.com/user-attachments/assets/f88ecbef-9fcf-40ba-aba5-1b2d409c35d5)
- ** Sans Censure **
+**Sans Censure**
  ![image](https://github.com/user-attachments/assets/ac8aa43e-4370-4452-8c93-54423172d65b)
 
 
